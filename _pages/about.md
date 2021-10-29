@@ -17,19 +17,27 @@ I am a Computer Science [Graduate student at Brown University](https://www.brown
           2. List item two
           3. List item three -->
 
-=====
+
 Data Science
+=====
 * Basics
   * Read Write csv 
   * Read Write Excel Files
 * Slicing 
 
-=====
 Computer Vision
+=====
 * Basics
   * Read Write Image
   * Read Video 
 * Convolution
+
+
+Interesting reads
+=====
+<ul>{% for post in site.ir %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
 
 <!-- A data-driven website
 ======
