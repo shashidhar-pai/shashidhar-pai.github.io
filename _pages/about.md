@@ -36,7 +36,7 @@ Computer Vision
 Interesting reads
 =====
 <!-- * [Data humanism](http://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold) -->
-* [Data Humanism](../_ir/dr_test.html)
+* [Data Humanism](../_ir/data_humanism.html)
 <!-- A data-driven website
 ======
 
