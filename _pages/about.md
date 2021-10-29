@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Notes on Using Data <strike>strikeout text</strike> Science and Computer Vision"
+title: "Notes on Using <br> <bold>Data Science and Computer Vision</bold><br> "
 excerpt: "About me"
 author_profile: true
 redirect_from: 
