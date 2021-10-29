@@ -40,7 +40,9 @@ Work Experience
 
 Publications
 ======
-[Data Humanism](../_ir/dr_test.html)
+  <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
   
 <!-- Talks
 ======
