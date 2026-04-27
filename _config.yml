@@ -1,0 +1,45 @@
+# Site (Minima + GitHub Pages)
+title: Shashidhar Pai
+email: shashidhar_pai@brown.edu
+description: >-
+  CS; data science & machine learning. Former Head TA: Deep Learning, Data Ethics
+  and Society (Brown).
+# After custom domain is live, keep this as your canonical URL. Before DNS cutover,
+# you can temporarily set url to https://YOUR_USERNAME.github.io and baseurl to "".
+url: "https://www.shashidharpai.com"
+baseurl: ""
+
+# If your GitHub handle differs, update this, your repo name, and DNS (see PUBLISHING.md)
+github_username: shashidharpai
+linkedin_username: # optional: add and uncomment social line in _includes if you extend theme
+google_analytics: # e.g. G-XXXX
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Minima: pages shown in the header (paths relative to site root)
+header_pages:
+  - about.md
+  - cv.md
+  - photography.md
+  - blog.md
+
+# Minima skin (classic, dark, auto, solarized, solarized-dark, contrast)
+minima:
+  skin: auto
+  date_format: "%b %d, %Y"
+
+# Exclude from Jekyll
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - PUBLISHING.md
+  - SQUARESPACE-DNS.md
+  - scripts
+  - .github
+
+# Markdown
+markdown: kramdown
