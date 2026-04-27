@@ -10,7 +10,7 @@ url: "https://www.shashidharpai.com"
 baseurl: ""
 
 # If your GitHub handle differs, update this, your repo name, and DNS (see PUBLISHING.md)
-github_username: shashidharpai
+github_username: shashidhar-pai
 linkedin_username: # optional: add and uncomment social line in _includes if you extend theme
 google_analytics: # e.g. G-XXXX
 

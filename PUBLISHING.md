@@ -4,7 +4,7 @@ Complete these in order on **your** GitHub and Squarespace accounts. This file c
 
 ## 1) Push this site to GitHub
 
-- **Repository name:** `YOUR_GITHUB_USERNAME.github.io` (must be your *personal* account username; organization accounts use `username.github.io` in the *user* account sense per GitHub Pages docs).
+- **Repository name:** `shashidhar-pai.github.io` (must match your GitHub username).
 - **Visibility:** public (required for free GitHub Pages on a personal account, unless you use a paid org feature).
 - Push the contents of the `shashidharpai.github.io` folder to the `main` branch.
 
@@ -12,7 +12,7 @@ Complete these in order on **your** GitHub and Squarespace accounts. This file c
 
 - `Settings` → `Pages` → under **Build and deployment**, set **Source** to **GitHub Actions**. This repository includes [`.github/workflows/jekyll-gh-pages.yml`](.github/workflows/jekyll-gh-pages.yml) so Jekyll runs on Ruby 3 in CI.
 - If GitHub offers a suggested workflow, choose **Jekyll** / confirm the included workflow, or re-run the failed “Deploy Jekyll to GitHub Pages” job after the first push.
-- Wait for the first green workflow run; the site will load at `https://YOUR_GITHUB_USERNAME.github.io`.
+- Wait for the first green workflow run; the site will load at `https://shashidhar-pai.github.io`.
 
 *(If you use **Deploy from a branch** instead, pick `main` and `/ (root)`; you do not need both. Actions is recommended to match the included `Gemfile`.)*
 
@@ -28,7 +28,7 @@ Use [SQUARESPACE-DNS.md](SQUARESPACE-DNS.md) for the exact A, AAAA, and CNAME va
 After saving DNS, wait 15 minutes–a few hours; use [dnschecker.org](https://dnschecker.org) to confirm:
 
 - `shashidharpai.com` A records point to `185.199.108-111.153` (or your resolved IPs)
-- `www.shashidharpai.com` CNAME points to `YOUR_GITHUB_USERNAME.github.io`
+- `www.shashidharpai.com` CNAME points to `shashidhar-pai.github.io`
 
 ## 3) Enable HTTPS
 

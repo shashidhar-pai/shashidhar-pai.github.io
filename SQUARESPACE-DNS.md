@@ -1,6 +1,6 @@
 # Squarespace DNS for GitHub Pages (shashidharpai.com)
 
-Replace **`YOUR_GITHUB_USERNAME`** with your real GitHub username (the CNAME must match the GitHub account that hosts `YOUR_GITHUB_USERNAME.github.io`).
+Your GitHub user site is **`shashidhar-pai.github.io`** — the `www` CNAME target must be **`shashidhar-pai.github.io`** (with hyphens).
 
 **Where:** Squarespace → **Domains** → `shashidharpai.com` → **DNS Settings** (or **Advanced settings** / **DNS** depending on the UI).
 
@@ -36,7 +36,7 @@ Delete any of the following that you still have from Google Sites / other hosts:
 
 | Host  | Type   | Data / Value                          |
 |-------|--------|---------------------------------------|
-| `www` | CNAME  | `YOUR_GITHUB_USERNAME.github.io`     |
+| `www` | CNAME  | `shashidhar-pai.github.io`             |
 
 *Some UIs add a trailing dot; both are usually fine. Do not point `www` at a URL — only the hostname `username.github.io`.*
 
@@ -54,4 +54,4 @@ www.shashidharpai.com
 
 ## Verify before enabling HTTPS
 
-After DNS propagates, `www.shashidharpai.com` should resolve to `YOUR_GITHUB_USERNAME.github.io` (via CNAME chain to GitHub Pages). Then in the repo: **Settings → Pages → Enforce HTTPS**.
+After DNS propagates, `www.shashidharpai.com` should resolve to `shashidhar-pai.github.io` (via CNAME chain to GitHub Pages). Then in the repo: **Settings → Pages → Enforce HTTPS**.

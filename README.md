@@ -1,6 +1,7 @@
-# shashidharpai.github.io
+# shashidhar-pai.github.io
 
-Source for [shashidharpai.com](https://www.shashidharpai.com) — Jekyll (Minima) on **GitHub Pages**, DNS at **Squarespace**.
+Source for [shashidharpai.com](https://www.shashidharpai.com) — Jekyll (Minima) on **GitHub Pages**, DNS at **Squarespace**.  
+Local folder on disk may still be named `shashidharpai.github.io`; the GitHub repo must match your username: **`shashidhar-pai.github.io`**.
 
 ## Local development
 
@@ -25,7 +26,7 @@ Source for [shashidharpai.com](https://www.shashidharpai.com) — Jekyll (Minima
    git add .
    git commit -m "Initial: Minima + migrated content, CNAME for www"
    git branch -M main
-   git remote add origin https://github.com/YOUR_USERNAME/YOUR_USERNAME.github.io.git
+   git remote add origin https://github.com/shashidhar-pai/shashidhar-pai.github.io.git
    git push -u origin main
    ```
 
@@ -35,10 +36,9 @@ Source for [shashidharpai.com](https://www.shashidharpai.com) — Jekyll (Minima
 
 See **[PUBLISHING.md](PUBLISHING.md)** for the full go-live checklist (DNS, HTTPS, verification).
 
-## If your GitHub username is not `shashidharpai`
+## Prior site (academic pages)
 
-- Rename the remote repo to `ACTUAL_USERNAME.github.io`.
-- Update `github_username` in `_config.yml` and the **CNAME** target in `SQUARESPACE-DNS.md` (GitHub’s DNS instructions use `ACTUAL_USERNAME.github.io` for the `www` record).
+The previous **academicpages**-style site on `master` was saved to branch **`archive/academic-pages-before-minima-2026-04-27`** before this Minima site replaced `master`.
 
 ## Content
 
