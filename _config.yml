@@ -39,7 +39,6 @@ exclude:
   - PUBLISHING.md
   - SQUARESPACE-DNS.md
   - scripts
-  - .github
 
 # Markdown
 markdown: kramdown

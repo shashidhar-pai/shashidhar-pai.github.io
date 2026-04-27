@@ -17,22 +17,17 @@ Local folder on disk may still be named `shashidharpai.github.io`; the GitHub re
 
 ## Publish to GitHub
 
-1. On GitHub, create a **public** repository named **`YOUR_USERNAME.github.io`** (must match your account username).
-2. This folder is the repo root. Initialize and push (replace `YOUR_USERNAME` and remote URL):
+The site is wired to **`https://github.com/shashidhar-pai/shashidhar-pai.github.io`** (`origin`). From this folder:
 
-   ```bash
-   cd shashidharpai.github.io
-   git init
-   git add .
-   git commit -m "Initial: Minima + migrated content, CNAME for www"
-   git branch -M main
-   git remote add origin https://github.com/shashidhar-pai/shashidhar-pai.github.io.git
-   git push -u origin main
-   ```
+```bash
+git remote add origin https://github.com/shashidhar-pai/shashidhar-pai.github.io.git   # if not set
+gh auth setup-git   # HTTPS pushes use gh credentials
+git push origin main:master   # or: git checkout master && merge main && push
+```
 
-3. Repo → **Settings** → **Pages** → **Build and deployment** → **Source: GitHub Actions** *or* **Deploy from a branch: main / (root)** — the default for user sites is often branch `main` with the default workflow if using Actions, or the classic Pages **branch: main, folder: /(root)**.
+1. Repo → **Settings** → **Pages** → **Deploy from a branch** → **`master`** / **`/(root)`** (classic Jekyll build for the `github-pages` gem).
 
-4. In **Settings → Pages → Custom domain**, add `www.shashidharpai.com` (and ensure the `CNAME` file in the repo is present).
+2. In **Settings → Pages → Custom domain**, add `www.shashidharpai.com` (the `CNAME` file is already in the repo).
 
 See **[PUBLISHING.md](PUBLISHING.md)** for the full go-live checklist (DNS, HTTPS, verification).
 

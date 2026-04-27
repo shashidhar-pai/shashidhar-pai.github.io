@@ -10,11 +10,11 @@ Complete these in order on **your** GitHub and Squarespace accounts. This file c
 
 **Enable Pages**
 
-- `Settings` → `Pages` → under **Build and deployment**, set **Source** to **GitHub Actions**. This repository includes [`.github/workflows/jekyll-gh-pages.yml`](.github/workflows/jekyll-gh-pages.yml) so Jekyll runs on Ruby 3 in CI.
-- If GitHub offers a suggested workflow, choose **Jekyll** / confirm the included workflow, or re-run the failed “Deploy Jekyll to GitHub Pages” job after the first push.
-- Wait for the first green workflow run; the site will load at `https://shashidhar-pai.github.io`.
+- `Settings` → `Pages` → under **Build and deployment**, set **Source** to **Deploy from a branch**.
+- Choose branch **`master`**, folder **`/ (root)`** (this repo’s default branch is `master` after the initial push).
+- Wait for the first green build; the site will load at `https://shashidhar-pai.github.io`.
 
-*(If you use **Deploy from a branch** instead, pick `main` and `/ (root)`; you do not need both. Actions is recommended to match the included `Gemfile`.)*
+*(Optional later: add a GitHub Actions Jekyll workflow and switch the Pages source to **GitHub Actions**. Pushing workflow files requires a token with the `workflow` scope — run `gh auth refresh -s workflow` if you use HTTPS + `gh` for git.)*
 
 **Custom domain in GitHub**
 
