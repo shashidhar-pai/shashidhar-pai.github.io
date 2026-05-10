@@ -2,9 +2,9 @@
 # Home page: lists recent posts (Blog) below the intro; see Minima "home" layout
 layout: home
 list_title: "Blog"
+# Minima prints this as the single page <h1>; do not repeat as # in the body
+title: "Shashidhar Pai (he/him/they)"
 ---
-
-# Shashidhar Pai (he/him/they)
 
 **M.S. Computer Science, Brown University** · *Providence, Rhode Island*
 
